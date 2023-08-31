@@ -1,0 +1,141 @@
+body {
+    margin: auto;
+    background-color: #1F2937 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    background-color: #273549;
+    margin: 63px;
+    margin-top: 20px;
+    width: 520px;
+    height: 520px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 70px #10B981;
+    
+}
+.subtitle{
+display: block;
+    font-size: 40px;
+}
+h1{
+    font-family: Karla;
+    font-size: 40px;
+    padding-top: 80px;
+    font-weight: 300;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-left: 70px;
+
+}
+
+
+p{
+    font-family: Inter;
+    color: #D5D4D8;
+    padding-left: 70px;
+}
+
+.buttons{
+    padding-left: 70px;
+    display: flex;
+    margin-top: 50px;
+}
+#generate-btn{
+  
+    font-family: Inter;
+    color: #D5D4D8;
+    font-size: larger;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #10B981 ;
+    border: 2px solid #10B981 ;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 191px;
+    height: 42px;
+}
+#pass-leng{
+    color: #D5D4D8;
+    background-color: #10B981;
+    padding: 5px;
+    padding-left: 5px;
+    margin-left:  10px;
+    font-size: 16px;
+    border: 2px solid #10B981 ;
+    border-radius: 6px;
+    height: 42px;
+    width: 130px;
+    outline: none; 
+    opacity: 1;
+    
+}
+hr{
+    color: #2F3E53;
+   width: 446px;
+   border: 1.5px solid #2F3E53;
+   border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+.pass-btn{
+    font-family: Inter;
+    display: flex;
+    margin-top: 20px;
+    
+   
+}
+#generated-pass1{
+    color: #10B981;
+    margin-left: 43px;
+width: 211px;
+height: 39px;
+background: #273549;
+border-radius: 10px;
+border: 1px solid #4B5563;
+box-shadow: 0px 0px 3px #10B981;
+}
+
+#generated-pass2{
+    color: #10B981;
+    margin-left: 10px;
+    margin-right: 30px;
+width: 211px;
+height: 39px;
+background: #273549;
+border-radius: 10px;
+border: 1px solid #4B5563;
+box-shadow: 0px 0px 3px #10B981;
+}
+
+
+.notification {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 40px;
+    border-radius: 30px;
+    padding: 8px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #273549;
+    background-color: #10B981;
+    animation: fadeInOut 1.5s ease-in-out;
+}
+
+@keyframes fadeInOut {
+    0%, 80% {
+        opacity: 0;
+    }
+    10%, 25%  {
+        opacity: 1;
+    }
+   
+}

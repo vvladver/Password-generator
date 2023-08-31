@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:wght@300&family=Karla:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Karla:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main-content">
+      <h1>
+        Generate a<span class="subtitle" style="color: #10b981"
+          >random password</span
+        >
+      </h1>
+      <p>Never use an insecure password again.</p>
+
+      <div class="buttons">
+        <button id="generate-btn" onclick="randomPass()">
+          Generate passwords
+        </button>
+        <input type="number" id="pass-leng" placeholder="Length (8-18) " />
+      </div>
+
+      <hr />
+
+      <!-- <p>Choose character set:</p>
+    <input
+      type="radio"
+      id="characters-all"
+      name="char-set"
+      value="charactersAll"
+      checked
+    />
+    <label for="characters-all">All Characters</label><br />
+    <input
+      type="radio"
+      id="characters-without-numbers"
+      name="char-set"
+      value="charactersWithoutNumbers"
+    />
+    <label for="characters-without-numbers">Without Numbers</label><br />
+    <input
+      type="radio"
+      id="characters-only"
+      name="char-set"
+      value="charactersOnly"
+    />
+    <label for="characters-only">Letters Only</label><br /> -->
+
+      <div class="pass-btn">
+        <button id="generated-pass1"></button>
+        <button id="generated-pass2"></button>
+      </div>
+      <div id="notification-container"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
